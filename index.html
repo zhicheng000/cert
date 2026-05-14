@@ -29,6 +29,7 @@
             max-width: 100px;
             margin-right: 12px;
             display: block;
+            object-fit: contain; /* 保证图片不变形 */
         }
         .top-header h1 {
             color: #fff;
@@ -79,7 +80,8 @@
 <body>
 
 <div class="top-header">
-    <img class="logo-img" src="https://bkimg.cdn.bcebos.com/pic/738b4710b912c8fcc3cea98eba588545d688d43f8b67?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536">
+    <!-- 这里已经换成你仓库里的 logo.png -->
+    <img class="logo-img" src="./logo.png" alt="logo">
     <h1>中国石化职称查询结果</h1>
 </div>
 
